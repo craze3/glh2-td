@@ -1,8 +1,8 @@
 <?php
 require_once('vendor/autoload.php'); 
 $provider = new \League\OAuth2\Client\Provider\GenericProvider([
-    'clientId'                => 'sQjuE5VpBchtAV8DlsjBMEfKPS1JvEjdm8pSNj23',    // The client ID assigned to you by the provider
-    'clientSecret'            => 'IbPFp8iJp8SaSZh3OaOKcfqxbTNhTNTffakRnW0X56kUwFaD5DIgVGqja1iYVvayn6Npte8NL0mIMPGuWI3xkDao1EJeY6NunxoSHwKbDV0opAFrbehO48iyRSckuq6A',   // The client password assigned to you by the provider
+    'clientId'                => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',    // The client ID assigned to you by the provider
+    'clientSecret'            => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',   // The client password assigned to you by the provider
     'redirectUri'             => 'https://blastify.io/labs/topdrawer/dashboard.php',
     'urlAuthorize'            => 'https://genomelink.io/oauth/authorize',
     'urlAccessToken'          => 'https://genomelink.io/oauth/token', // ?
